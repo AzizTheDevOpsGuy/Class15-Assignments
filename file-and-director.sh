@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #this script takes a name from the user and tell them if it is and argument.
-
+clear
 read -p "Please enter your file or directory name: " name
 if [ -d $name ]
 then 
