@@ -10,4 +10,6 @@ then
 elif [ -f$name ] 
 then 
 	echo "$name is a file in your system. see below for the permission"
+else
+	echo "
 
