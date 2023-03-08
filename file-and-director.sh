@@ -11,5 +11,9 @@ elif [ -f$name ]
 then 
 	echo "$name is a file in your system. see below for the permission"
 else
-	echo "
+	echo "$name does not exist in your system"
+	echo " GOOD BYE BYE "
+	sleep 4
+fi
+
 
