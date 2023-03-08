@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #this script print number between 1 to 50 and tell the user if the number is Odd or Even.
-
-for  i in [ 1..50 ]
+clear
+for  i in {1..50}
 do 
-	if [ $($i%2) -eq 0 ]
+	if [ $(($i%2)) -eq 0 ]
 	then
 		echo -e "\e[032m$i is an Even number\e[00m"
 	else
